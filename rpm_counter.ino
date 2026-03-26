@@ -22,7 +22,7 @@ void loop() {
     counter = 0;
     interrupts();
 
-    rpm = pulses * 60;
+    rpm = (pulses / 2) * 60;
     previousMs = currentMs;
 
     Serial.print("RPM: ");
