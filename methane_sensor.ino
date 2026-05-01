@@ -1,4 +1,4 @@
-int mq4Pin= A0;
+int MQ4_Pin= A0;
 float sensorResistance = 6.93;
 
 void setup() {
